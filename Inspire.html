@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_4</title>
+
+    <link rel="stylesheet" href="stylee.css">
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <link rel="icon" type="image/gif" href="favicon/animated_favicon1.gif">  
+
+</head>
+
+<body>
+
+    <header>
+        <h3>Inspire</h3>
+    </header>
+
+
+    <div class="row">
+
+        <div id="selectheadqns" class="col-md-12">
+            <div id="heading">Take</div><div id="headingadd">Test</div>            
+        </div>
+
+        <div id="selectheadans" class="col-md-12" style="display: none;">
+                       
+        </div>
+
+        <div class="col-md-6" id="firstdisplay" style="display: inline;">             
+            <span>T01</span><button id="but01" onclick="qnsButtonfxn();">LDC MODEL M001</button><br>
+            <span>T02</span><button id="but02" onclick="qnsButtonfxn();">LDC MODEL M002</button> <br>
+            <span>T03</span><button id="but03" onclick="qnsButtonfxn();">LDC MODEL M003</button><br>
+            <span>T04</span><button id="but04" onclick="qnsButtonfxn();">LDC MODEL M004</button><br>
+            <span>T05</span><button id="but05" onclick="qnsButtonfxn();">LDC MODEL M005</button>
+        </div>   
+
+        <div class="col-md-6 " id="seconddisplay" style="display: inline;">     
+            <span>T06</span><button id="but06" onclick="qnsButtonfxn();">LDC MODEL M006</button><br>         
+            <span>T07</span><button id="but07" onclick="qnsButtonfxn();">LDC MODEL M007</button><br>
+            <span>T08</span><button id="but08" onclick="qnsButtonfxn();">LDC MODEL M008</button><br>
+            <span>T09</span><button id="but09" onclick="qnsButtonfxn();">LDC MODEL M009</button><br>
+            <span>T10</span><button id="but10" onclick="qnsButtonfxn();">LDC MODEL M010</button><br>          
+        </div>
+
+
+        <div class =" col-md-12" id="answerdisplay" style="display: none;">
+
+            <button id="backbutton" onclick="backtohome();" style="float: right;"> Back</button>
+
+
+            <div id="qns01" style="display: none;">
+                  
+                <div id="qnsExp">
+                    <p>Exam Rules</p>
+                    <ul>
+                        <li>Exam duration 75minuts</li>
+                        <li>Exam starts at 8:00pm </li>
+                    </ul>
+                </div>
+                <button id="clearbutton" ><a href="#">Start Exam</a></button>
+
+                
+            </div>
+
+           
+        </div>
+
+    </div>
+
+
+    <footer>
+        <p>copyRight@googlainespot</p>
+    </footer>
+  
+</body>
+</html>
